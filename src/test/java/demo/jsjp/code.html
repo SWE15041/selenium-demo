@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table class="ui-dialog-grid">
+    <tbody>
+    <tr>
+        <td i="header" class="ui-dialog-header">
+            <button i="close" class="ui-dialog-close" title="cancel" style="display: none;">×</button>
+            <div i="title" class="ui-dialog-title" id="title:tipsDia2">计时已暂停，请输入验证码显示的运算结果！</div>
+        </td>
+    </tr>
+    <tr>
+        <td i="body" class="ui-dialog-body">
+            <div i="content" class="ui-dialog-content" id="content:tipsDia2">
+                <div id="compute" class="box" style="">
+                    <table width="100%">
+                        <tbody>
+                        <tr>
+                            <td><img id="VerificationCode" name="VerificationCode&quot;"
+                                     src="/admin/train/getRandCheck?Tue Jun 01 2021 11:25:43 GMT+0800 (中国标准时间)"></td>
+                            <td><a id="kanbuq" href="javascript:;">看清楚，换一张</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input id="IdentyCode" name="IdentyCode&quot;" type="text"></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td i="footer" class="ui-dialog-footer">
+            <div i="statusbar" class="ui-dialog-statusbar" style="display: none;"></div>
+            <div i="button" class="ui-dialog-button">
+                <button type="button" i-id="ok" autofocus="" class="ui-dialog-autofocus">确定</button>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
